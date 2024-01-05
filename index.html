@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive E-Commerce Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link
+       rel="stylesheet"
+       href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />   
+
+</head>
+<body>
+      <header>
+        <a href="#" class="logo">BelleAura</a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+
+        <!--div class="header-icons">
+            <i class='bx bx-cart-alt menu-icon'></i>
+            <span class="cart-count">0</span>
+            <ul id="cart-dropdown"></ul>
+        </div-->
+        <div class="header-icons">
+            <i class='bx bx-cart-alt menu-icon'></i>
+            <span class="cart-count">0</span>
+            <div id="cart-dropdown" class="cart-dropdown">
+                <!-- Existing items in the cart -->
+                <ul id="cart-items"></ul>
+                
+                <!-- Total Price -->
+                <div class="total-price-container">
+                    <span>Total Price: </span>
+                    <span id="total-price">$0.00</span>
+                </div>
+            </div>
+        </div>
+        
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>New Arrival of <br> Fresh Products</h1>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+      </section>
+
+
+     <!--Products-->
+      <section class="products" id="products">
+        <div class="heading">
+            <h1>Our <span>Products</span></h1>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="C:\Users\kanik\OneDrive\Desktop\i13.jpg" alt="">
+                <div class="content">
+                    <h2>Lip-Gloss</h2>
+
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a2.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a3.png" alt="">
+                <div class="content">
+                    <h2>Foundation</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a4.png" alt="">
+                <div class="content">
+                    <h2>Bronzer</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a5.png" alt="">
+                <div class="content">
+                    <h2>Mascara</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a6.png" alt="">
+                <div class="content">
+                    <h2>Eyeliners</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\a7.png" alt="">
+                <div class="content">
+                    <h2>Eyeshadows</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\3.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\4.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\5.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\6.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\7.png" alt="">
+                <div class="content">
+                    <h2>Lipsticks</h2>
+
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-
+                        half'></i>
+                    </div>
+                    <span>$50.05</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+<!--Reviews-->
+      <section class="reviews" id="reviews">
+        <div class="heading">
+            <h1>Our <span>Customer's</span></h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\b1.png" alt="">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                </div>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit.qui labore pariatur enim quae quis earum!</p>
+                <h2>Will Smith</h2>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\b2.png" alt="">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                </div>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit.qui labore pariatur enim quae quis earum!</p>
+                <h2>Will Smith</h2>
+            </div>
+
+            <div class="box">
+                <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\b3.png" alt="">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                </div>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit.qui labore pariatur enim quae quis earum!</p>
+                <h2>Will Smith</h2>
+            </div>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="footer-box">
+            <h2>BelleAura</h2>
+            <p>lorem ipsum dolor sit amet consectetur adipisicing elit.qui labore pariatur enim quae quis earum!</p>
+
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">FAQ</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Our Branches</h3>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Japan</a></li>
+            <li><a href="#">USA</a></li>
+            <li><a href="#">Canada</a></li>
+            <li><a href="#">UK</a></li>
+        </div>
+
+        <div class="footer-box">
+            <h3>Payment Method</h3>
+           <div class="payment">
+            <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\mastercard.png" alt="">
+            <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\paypal.png" alt="">
+            <img src="C:\Users\Dhriti Reddy\OneDrive\Desktop\Project\img\visa.png" alt="">
+           </div>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <p>&#169; BelleAura 2023</p>
+      </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
